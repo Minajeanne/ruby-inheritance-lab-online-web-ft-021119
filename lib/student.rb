@@ -3,7 +3,7 @@ class Student < User
 
 attr_accessor :knowledge
 
-def self.new
+def self.new(knowledge)
   @knowledge = []
 end
 

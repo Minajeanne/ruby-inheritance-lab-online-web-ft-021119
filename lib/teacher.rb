@@ -4,7 +4,7 @@ KNOWLEDGE = ["a String is a type of data in Ruby", "programming is hard, but it'
 
 def teach(array)
   array = KNOWLEDGE
-    array.sample(random: rng)
+    array.sample(random:rng)
 end
 
 end
